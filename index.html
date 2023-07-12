@@ -326,41 +326,42 @@ section {
     
 }
 		:root {
-  --bg-color: #b4b2b0;
-  --text-color: #212121;
-}
-[data-theme="dark"] {
-  --bg-color: #121212;
-  --text-color: white;
-body {
-  color: white;
-  background-color: var(--bg-color);
-  font-family: "Playfair Display";
-}
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-}
-.toggle-button {
-  -webkit-appearance: none;
-  outline: none;
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  position: relative;
-  transition: 0.4s;
-  background: url("https://raw.githubusercontent.com/RuchiVS/image-upload/main/moon.png")
-    no-repeat center #212121;
-  background-size: 60px;
-  cursor: pointer;
-}
-.toggle-button:checked {
-  background: url("https://raw.githubusercontent.com/RuchiVS/image-upload/main/sun.png")
-    no-repeat center #ffffff;
-  background-size: 60px;
-}
+            --bg-color: #7d91e9;
+            --text-color: #e20404;
+          }
+          [data-theme="dark"] {
+            --bg-color: #e43636;
+            --text-color:white;
+          }
+          body {
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            font-family: "Playfair Display";
+          }
+          .container {
+            display: flex;
+            justify-content: right;
+            align-items: right;
+            height: 80vh;
+          }
+          .toggle-button {
+            -webkit-appearance: none;
+            outline: none;
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+            position: relative;
+            transition: 0.4s;
+            background: url("https://raw.githubusercontent.com/RuchiVS/image-upload/main/moon.png")
+              no-repeat center #212121;
+            background-size: 60px;
+            cursor: pointer;
+          }
+          .toggle-button:checked {
+            background: url("https://raw.githubusercontent.com/RuchiVS/image-upload/main/sun.png")
+              no-repeat center #ffffff;
+            background-size: 60px;
+          }
 
 		
 		
